@@ -1,0 +1,11 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+python-multipart>=0.0.20
+pydantic>=2.11.0
+pydantic-settings>=2.9.0
+aiosqlite>=0.21.0
+httpx>=0.28.0
+gradio_client>=1.0.0
+Pillow>=11.0.0
+python-dotenv>=1.0.0
+aiofiles>=24.1.0

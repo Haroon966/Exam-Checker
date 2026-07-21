@@ -1,0 +1,9 @@
+{
+  "name": "exam-checker",
+  "private": true,
+  "scripts": {
+    "api": "./scripts/start-api.sh",
+    "mobile": "./scripts/start-mobile.sh",
+    "start": "echo 'Run in two terminals: npm run api   and   npm run mobile'"
+  }
+}

@@ -1,0 +1,12 @@
+---
+description: Pinky backend principles — validation, authz, safe logging
+globs: "**/*.{py,go,rs,java,rb,php,cs,ts,js}"
+alwaysApply: false
+---
+
+# Pinky backend
+
+- Validate untrusted input. Authorize before sensitive reads/writes.
+- Structured errors/logs; never log secrets.
+- No hardcoded credentials. Prefer idempotent mutations where retries are likely.
+- Use `backend-apis` skill for deeper API/server work. Keep changes Ponytail-minimal.

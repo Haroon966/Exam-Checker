@@ -1,0 +1,12 @@
+---
+description: Pinky frontend principles — a11y, scoped UI, no client secrets
+globs: "**/*.{html,css,scss,sass,less,jsx,tsx,vue,svelte,astro}"
+alwaysApply: false
+---
+
+# Pinky frontend
+
+- Semantic HTML, keyboard access, visible focus, adequate contrast.
+- No secrets in client code. Scope UI changes to the request.
+- Prefer existing design system / components. Use `frontend-craft` and `/ui-ux-pro-max` when inventing UI.
+- Respect `prefers-reduced-motion`. Avoid emoji-as-icons.

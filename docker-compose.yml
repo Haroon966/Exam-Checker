@@ -1,0 +1,10 @@
+services:
+  api:
+    build: ./services/api
+    ports:
+      - "8001:8000"
+    env_file:
+      - ./services/api/.env
+    volumes:
+      - ./services/api/data:/app/data
+      - ./services/api/uploads:/app/uploads
